@@ -1,4 +1,4 @@
-<h6 align="center">🧠 HealthHub 🧠</h6>
+<h1 align="center">🧠 HealthHub 🧠</h1>
 
 ---
 
