@@ -1,4 +1,4 @@
-![Header](https://github.com/Ottobiss/HealthHub/blob/main/assets/header.jpg)
+![Header](https://github.com/Ottobiss/HealthHub/blob/main/assets/header.png)
 <h1 align="center">🧠 HealthHub 🧠</h1>
 
 ---
@@ -89,4 +89,3 @@
 ## 📧 Контакты
 
 Если у вас есть вопросы или предложения, пишите в telegram: **[@nikiromano](https://t.me/nikiromano)**
->>>>>>> f04e244 (README.md update)
