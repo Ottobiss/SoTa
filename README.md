@@ -1,3 +1,4 @@
+![Header](https://github.com/Ottobiss/HealthHub/blob/main/assets/header.jpg)
 <h1 align="center">🧠 HealthHub 🧠</h1>
 
 ---
