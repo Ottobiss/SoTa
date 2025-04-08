@@ -2,12 +2,10 @@
 <p>
 <img src="media/SOTA_header.png" alt="SOTA system banner" width="100%">
 </p>
-<img src="https://img.shields.io/badge/Ottobiss-SoTa-SoTa" alt="Static Badge"/>
-<img src="https://img.shields.io/github/languages/top/Ottobiss/SoTa" alt="GitHub top language"/>
-<img src="https://img.shields.io/github/license/Ottobiss/SoTa" alt="GitHub LICENCE"/>
-<img src="https://img.shields.io/github/followers/Ottobiss" alt="GitHub followers"/>
-<p>
-</p>
+<img src="https://img.shields.io/badge/Ottobiss-SoTa-SoTa?style=flat&labelColor=white&color=gray" alt="Static Badge"/>
+<img src="https://img.shields.io/github/languages/top/Ottobiss/SoTa?style=flat&logoColor=violet&labelColor=white&color=gray" alt="GitHub top language"/>
+<img src="https://img.shields.io/github/license/Ottobiss/SoTa?style=flat&logoColor=red&labelColor=white&color=gray" alt="GitHub LICENCE"/>
+<img src="https://img.shields.io/github/stars/Ottobiss/SoTa?logo=github&color=violet" alt="GitHub stars"/>
 </div>
 
 ## 💊 Умная Таблетница «СОТА»
