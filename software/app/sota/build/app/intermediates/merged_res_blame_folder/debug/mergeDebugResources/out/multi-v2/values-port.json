@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ottobiss.sota.app-mergeDebugResources-45:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\8.10.2\\transforms\\7af0f8379b1dddc34dee76692b56b3d0\\transformed\\appcompat-1.7.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

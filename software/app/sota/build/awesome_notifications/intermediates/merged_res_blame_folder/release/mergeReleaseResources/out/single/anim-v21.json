@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/anim-v21/mtrl_bottom_sheet_slide_out.xml",
+        "source": "me.carda.awesome_notifications-material-1.12.0-20:/anim-v21/mtrl_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/anim-v21/m3_bottom_sheet_slide_out.xml",
+        "source": "me.carda.awesome_notifications-material-1.12.0-20:/anim-v21/m3_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/anim-v21/mtrl_bottom_sheet_slide_in.xml",
+        "source": "me.carda.awesome_notifications-material-1.12.0-20:/anim-v21/mtrl_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "me.carda.awesome_notifications-material-1.12.0-20:/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/anim-v21/fragment_fast_out_extra_slow_in.xml",
+        "source": "me.carda.awesome_notifications-fragment-1.7.1-8:/anim-v21/fragment_fast_out_extra_slow_in.xml"
+    },
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/anim-v21/m3_side_sheet_enter_from_left.xml",
+        "source": "me.carda.awesome_notifications-material-1.12.0-20:/anim-v21/m3_side_sheet_enter_from_left.xml"
+    },
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/anim-v21/m3_bottom_sheet_slide_in.xml",
+        "source": "me.carda.awesome_notifications-material-1.12.0-20:/anim-v21/m3_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/anim-v21/m3_side_sheet_exit_to_right.xml",
+        "source": "me.carda.awesome_notifications-material-1.12.0-20:/anim-v21/m3_side_sheet_exit_to_right.xml"
+    },
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/anim-v21/m3_side_sheet_enter_from_right.xml",
+        "source": "me.carda.awesome_notifications-material-1.12.0-20:/anim-v21/m3_side_sheet_enter_from_right.xml"
+    },
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "me.carda.awesome_notifications-material-1.12.0-20:/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/anim-v21/m3_side_sheet_exit_to_left.xml",
+        "source": "me.carda.awesome_notifications-material-1.12.0-20:/anim-v21/m3_side_sheet_exit_to_left.xml"
+    }
+]

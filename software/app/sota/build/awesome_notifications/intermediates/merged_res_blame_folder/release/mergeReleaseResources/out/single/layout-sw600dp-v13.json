@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/layout-sw600dp-v13/mtrl_layout_snackbar.xml",
+        "source": "me.carda.awesome_notifications-material-1.12.0-20:/layout-sw600dp-v13/mtrl_layout_snackbar.xml"
+    },
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "me.carda.awesome_notifications-material-1.12.0-20:/layout-sw600dp-v13/design_layout_snackbar.xml"
+    }
+]

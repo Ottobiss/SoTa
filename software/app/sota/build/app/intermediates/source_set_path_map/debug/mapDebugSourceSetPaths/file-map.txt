@@ -1,0 +1,51 @@
+com.ottobiss.sota.app-jetified-activity-1.8.1-0 C:\Users\User\.gradle\caches\8.10.2\transforms\13dd610fda78ecd8ad3daad9b8195d7e\transformed\jetified-activity-1.8.1\res
+com.ottobiss.sota.app-lifecycle-viewmodel-2.7.0-1 C:\Users\User\.gradle\caches\8.10.2\transforms\1b91be3af319ede480d7185430690ee1\transformed\lifecycle-viewmodel-2.7.0\res
+com.ottobiss.sota.app-jetified-tracing-1.2.0-2 C:\Users\User\.gradle\caches\8.10.2\transforms\285b6d6abe2dd4ba9515886e610a7341\transformed\jetified-tracing-1.2.0\res
+com.ottobiss.sota.app-localbroadcastmanager-1.1.0-3 C:\Users\User\.gradle\caches\8.10.2\transforms\2a0d5794843604364eca179d4eb7b8a1\transformed\localbroadcastmanager-1.1.0\res
+com.ottobiss.sota.app-media-1.7.0-4 C:\Users\User\.gradle\caches\8.10.2\transforms\2c7a28485314ee0e74d343b62dcecbb6\transformed\media-1.7.0\res
+com.ottobiss.sota.app-recyclerview-1.1.0-5 C:\Users\User\.gradle\caches\8.10.2\transforms\378ea1994e3598d3fb5f44e10e5e1679\transformed\recyclerview-1.1.0\res
+com.ottobiss.sota.app-jetified-core-1.0.0-6 C:\Users\User\.gradle\caches\8.10.2\transforms\47506b70b93177473c53f4d5d7e77c91\transformed\jetified-core-1.0.0\res
+com.ottobiss.sota.app-jetified-window-1.2.0-7 C:\Users\User\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\res
+com.ottobiss.sota.app-fragment-1.7.1-8 C:\Users\User\.gradle\caches\8.10.2\transforms\55520e4df2220e27f13f0bbb7467d11a\transformed\fragment-1.7.1\res
+com.ottobiss.sota.app-room-runtime-2.6.1-9 C:\Users\User\.gradle\caches\8.10.2\transforms\58fddaebfc454570b01825c5ecc940d6\transformed\room-runtime-2.6.1\res
+com.ottobiss.sota.app-jetified-profileinstaller-1.3.1-10 C:\Users\User\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\res
+com.ottobiss.sota.app-jetified-emoji2-views-helper-1.3.0-11 C:\Users\User\.gradle\caches\8.10.2\transforms\64dacec7be98cdbafa21caf949a077e3\transformed\jetified-emoji2-views-helper-1.3.0\res
+com.ottobiss.sota.app-jetified-core-ktx-1.13.1-12 C:\Users\User\.gradle\caches\8.10.2\transforms\6ec70d4eb0351866340efe37c2014fef\transformed\jetified-core-ktx-1.13.1\res
+com.ottobiss.sota.app-appcompat-1.7.0-13 C:\Users\User\.gradle\caches\8.10.2\transforms\7af0f8379b1dddc34dee76692b56b3d0\transformed\appcompat-1.7.0\res
+com.ottobiss.sota.app-sqlite-2.4.0-14 C:\Users\User\.gradle\caches\8.10.2\transforms\7ebf7a1733d892cf9efc06249c8aa8df\transformed\sqlite-2.4.0\res
+com.ottobiss.sota.app-jetified-play-services-base-18.1.0-15 C:\Users\User\.gradle\caches\8.10.2\transforms\80d381bf084c21e18706da6716588126\transformed\jetified-play-services-base-18.1.0\res
+com.ottobiss.sota.app-constraintlayout-2.0.1-16 C:\Users\User\.gradle\caches\8.10.2\transforms\8261e198a6295ec1a995a013d8b28cc6\transformed\constraintlayout-2.0.1\res
+com.ottobiss.sota.app-core-1.13.1-17 C:\Users\User\.gradle\caches\8.10.2\transforms\8cf478dec41eed746328fa8046755ba2\transformed\core-1.13.1\res
+com.ottobiss.sota.app-drawerlayout-1.1.1-18 C:\Users\User\.gradle\caches\8.10.2\transforms\9967797afdd90cde852a608be4a71bf1\transformed\drawerlayout-1.1.1\res
+com.ottobiss.sota.app-jetified-play-services-basement-18.3.0-19 C:\Users\User\.gradle\caches\8.10.2\transforms\abeed4f47a72eff8f5b4e9bf7f2f3c91\transformed\jetified-play-services-basement-18.3.0\res
+com.ottobiss.sota.app-jetified-savedstate-1.2.1-20 C:\Users\User\.gradle\caches\8.10.2\transforms\b3d51a44ab6b56289d4858158a1ad6dd\transformed\jetified-savedstate-1.2.1\res
+com.ottobiss.sota.app-sqlite-framework-2.4.0-21 C:\Users\User\.gradle\caches\8.10.2\transforms\b5592043bfd36c07054f6ea0c3c297be\transformed\sqlite-framework-2.4.0\res
+com.ottobiss.sota.app-material-1.12.0-22 C:\Users\User\.gradle\caches\8.10.2\transforms\ba43a110313f3894f41330d4da02dfed\transformed\material-1.12.0\res
+com.ottobiss.sota.app-transition-1.5.0-23 C:\Users\User\.gradle\caches\8.10.2\transforms\bf547c7ca2ee616b2232097ff2be89f5\transformed\transition-1.5.0\res
+com.ottobiss.sota.app-lifecycle-runtime-2.7.0-24 C:\Users\User\.gradle\caches\8.10.2\transforms\c092edbccc16347970ed4f22e8da111a\transformed\lifecycle-runtime-2.7.0\res
+com.ottobiss.sota.app-jetified-window-java-1.2.0-25 C:\Users\User\.gradle\caches\8.10.2\transforms\c1f85211ae6978d0218d51595a7f7e62\transformed\jetified-window-java-1.2.0\res
+com.ottobiss.sota.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-26 C:\Users\User\.gradle\caches\8.10.2\transforms\c7156a54e8f0502a1f8f57797d8b3e6e\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\res
+com.ottobiss.sota.app-coordinatorlayout-1.1.0-27 C:\Users\User\.gradle\caches\8.10.2\transforms\c9ca8a45334a59e7b1dab4e619a1512f\transformed\coordinatorlayout-1.1.0\res
+com.ottobiss.sota.app-jetified-viewpager2-1.0.0-28 C:\Users\User\.gradle\caches\8.10.2\transforms\d8d2fedd17fffc12839dcc9cce6d60ff\transformed\jetified-viewpager2-1.0.0\res
+com.ottobiss.sota.app-jetified-emoji2-1.3.0-29 C:\Users\User\.gradle\caches\8.10.2\transforms\ddb705a688ef6a1839fd6d53500b0a16\transformed\jetified-emoji2-1.3.0\res
+com.ottobiss.sota.app-jetified-startup-runtime-1.1.1-30 C:\Users\User\.gradle\caches\8.10.2\transforms\e0d9d3675465ff69d847e2f781f20c61\transformed\jetified-startup-runtime-1.1.1\res
+com.ottobiss.sota.app-lifecycle-livedata-2.7.0-31 C:\Users\User\.gradle\caches\8.10.2\transforms\e0eede8414d1ee0e5f236daeb1a2e59a\transformed\lifecycle-livedata-2.7.0\res
+com.ottobiss.sota.app-lifecycle-livedata-core-2.7.0-32 C:\Users\User\.gradle\caches\8.10.2\transforms\e2e21678784b3eef6b33f576b1691a56\transformed\lifecycle-livedata-core-2.7.0\res
+com.ottobiss.sota.app-jetified-lifecycle-process-2.7.0-33 C:\Users\User\.gradle\caches\8.10.2\transforms\e80aa748ff6540407d8dba61c0d945fe\transformed\jetified-lifecycle-process-2.7.0\res
+com.ottobiss.sota.app-jetified-appcompat-resources-1.7.0-34 C:\Users\User\.gradle\caches\8.10.2\transforms\e8d563d70ff69cea851b997b886ecf6b\transformed\jetified-appcompat-resources-1.7.0\res
+com.ottobiss.sota.app-jetified-lifecycle-livedata-core-ktx-2.7.0-35 C:\Users\User\.gradle\caches\8.10.2\transforms\ebeb29d7113d60e59d5e0acf92f847f3\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\res
+com.ottobiss.sota.app-cardview-1.0.0-36 C:\Users\User\.gradle\caches\8.10.2\transforms\eea6bc447011882d6b95909c5f8bbb72\transformed\cardview-1.0.0\res
+com.ottobiss.sota.app-jetified-annotation-experimental-1.4.0-37 C:\Users\User\.gradle\caches\8.10.2\transforms\f09a22cdd213028a38958888c7d16e20\transformed\jetified-annotation-experimental-1.4.0\res
+com.ottobiss.sota.app-jetified-firebase-common-21.0.0-38 C:\Users\User\.gradle\caches\8.10.2\transforms\f84ab3ff6a97e53fb3163820143e7e79\transformed\jetified-firebase-common-21.0.0\res
+com.ottobiss.sota.app-core-runtime-2.2.0-39 C:\Users\User\.gradle\caches\8.10.2\transforms\ff849810dfe34a0ab790c402787c149e\transformed\core-runtime-2.2.0\res
+com.ottobiss.sota.app-debug-40 D:\_UserData\Documents\Flutter Projects\sota\android\app\src\debug\res
+com.ottobiss.sota.app-main-41 D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\res
+com.ottobiss.sota.app-pngs-42 D:\_UserData\Documents\Flutter Projects\sota\build\app\generated\res\pngs\debug
+com.ottobiss.sota.app-res-43 D:\_UserData\Documents\Flutter Projects\sota\build\app\generated\res\processDebugGoogleServices
+com.ottobiss.sota.app-resValues-44 D:\_UserData\Documents\Flutter Projects\sota\build\app\generated\res\resValues\debug
+com.ottobiss.sota.app-packageDebugResources-45 D:\_UserData\Documents\Flutter Projects\sota\build\app\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.ottobiss.sota.app-packageDebugResources-46 D:\_UserData\Documents\Flutter Projects\sota\build\app\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.ottobiss.sota.app-debug-47 D:\_UserData\Documents\Flutter Projects\sota\build\app\intermediates\merged_res\debug\mergeDebugResources
+com.ottobiss.sota.app-debug-48 D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\packaged_res\debug\packageDebugResources
+com.ottobiss.sota.app-debug-49 D:\_UserData\Documents\Flutter Projects\sota\build\cloud_firestore\intermediates\packaged_res\debug\packageDebugResources
+com.ottobiss.sota.app-debug-50 D:\_UserData\Documents\Flutter Projects\sota\build\firebase_core\intermediates\packaged_res\debug\packageDebugResources

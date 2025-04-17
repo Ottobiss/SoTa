@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/layout-land/material_timepicker.xml",
+        "source": "me.carda.awesome_notifications-material-1.12.0-20:/layout-land/material_timepicker.xml"
+    },
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/layout-land/mtrl_picker_header_dialog.xml",
+        "source": "me.carda.awesome_notifications-material-1.12.0-20:/layout-land/mtrl_picker_header_dialog.xml"
+    },
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/layout-land/material_clock_period_toggle_land.xml",
+        "source": "me.carda.awesome_notifications-material-1.12.0-20:/layout-land/material_clock_period_toggle_land.xml"
+    }
+]

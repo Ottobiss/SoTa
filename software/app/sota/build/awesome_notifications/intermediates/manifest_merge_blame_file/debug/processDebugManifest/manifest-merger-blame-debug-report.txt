@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="me.carda.awesome_notifications" >
+4
+5    <uses-sdk android:minSdkVersion="23" />
+6
+7    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
+7-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:4:5-89
+7-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:4:22-86
+8
+9    <application>
+9-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:6:5-43:19
+10        <receiver
+10-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:8:9-9:38
+11            android:name="me.carda.awesome_notifications.DartNotificationActionReceiver"
+11-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:8:19-65
+12            android:exported="true" />
+12-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:9:13-36
+13        <receiver
+13-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:11:9-12:38
+14            android:name="me.carda.awesome_notifications.DartDismissedNotificationReceiver"
+14-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:11:19-68
+15            android:exported="true" />
+15-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:12:13-36
+16        <receiver
+16-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:14:9-15:38
+17            android:name="me.carda.awesome_notifications.DartScheduledNotificationReceiver"
+17-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:14:19-68
+18            android:exported="true" />
+18-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:15:13-36
+19        <receiver
+19-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:17:9-30:20
+20            android:name="me.carda.awesome_notifications.DartRefreshSchedulesReceiver"
+20-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:18:13-57
+21            android:enabled="true"
+21-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:19:13-35
+22            android:exported="true" >
+22-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:20:13-36
+23            <intent-filter>
+23-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:21:13-29:29
+24                <category android:name="android.intent.category.DEFAULT" />
+24-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:22:17-75
+24-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:22:27-73
+25
+26                <action android:name="android.intent.action.BOOT_COMPLETED" />
+26-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:23:17-78
+26-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:23:25-76
+27                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+27-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:24:17-85
+27-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:24:25-83
+28                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+28-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:25:17-83
+28-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:25:25-81
+29                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+29-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:26:17-81
+29-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:26:25-79
+30                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+30-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:27:17-81
+30-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:27:25-79
+31                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+31-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:28:17-106
+31-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:28:25-104
+32            </intent-filter>
+33        </receiver>
+34
+35        <service
+35-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:32:9-34:39
+36            android:name="me.carda.awesome_notifications.DartBackgroundService"
+36-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:32:18-55
+37            android:exported="false"
+37-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:34:13-37
+38            android:permission="android.permission.BIND_JOB_SERVICE" />
+38-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:33:13-69
+39        <service
+39-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:36:9-41:43
+40            android:name="me.carda.awesome_notifications.core.services.ForegroundService"
+40-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:37:13-90
+41            android:enabled="true"
+41-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:38:13-35
+42            android:exported="false"
+42-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:39:13-37
+43            android:foregroundServiceType="phoneCall"
+43-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:40:13-54
+44            android:stopWithTask="true" />
+44-->C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:41:13-40
+45    </application>
+46
+47</manifest>

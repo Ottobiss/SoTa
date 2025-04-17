@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "me.carda.awesome_notifications-appcompat-1.7.0-13:/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/drawable-v21/abc_list_divider_material.xml",
+        "source": "me.carda.awesome_notifications-appcompat-1.7.0-13:/drawable-v21/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/drawable-v21/abc_btn_colored_material.xml",
+        "source": "me.carda.awesome_notifications-appcompat-1.7.0-13:/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/drawable-v21/abc_dialog_material_background.xml",
+        "source": "me.carda.awesome_notifications-appcompat-1.7.0-13:/drawable-v21/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/drawable-v21/notification_action_background.xml",
+        "source": "me.carda.awesome_notifications-core-1.13.1-16:/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/drawable-v21/abc_edit_text_material.xml",
+        "source": "me.carda.awesome_notifications-appcompat-1.7.0-13:/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/drawable-v21/mtrl_navigation_bar_item_background.xml",
+        "source": "me.carda.awesome_notifications-material-1.12.0-20:/drawable-v21/mtrl_navigation_bar_item_background.xml"
+    },
+    {
+        "merged": "me.carda.awesome_notifications-release-42:/drawable-v21/material_cursor_drawable.xml",
+        "source": "me.carda.awesome_notifications-material-1.12.0-20:/drawable-v21/material_cursor_drawable.xml"
+    }
+]

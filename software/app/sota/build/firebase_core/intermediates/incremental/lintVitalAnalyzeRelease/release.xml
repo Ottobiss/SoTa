@@ -1,0 +1,31 @@
+<variant
+    name="release"
+    package="io.flutter.plugins.firebase.core"
+    minSdkVersion="19"
+    targetSdkVersion="19"
+    mergedManifest="D:\_UserData\Documents\Flutter Projects\sota\build\firebase_core\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml"
+    proguardFiles="D:\_UserData\Documents\Flutter Projects\sota\build\firebase_core\intermediates\default_proguard_files\global\proguard-android.txt-8.7.0"
+    partialResultsDir="D:\_UserData\Documents\Flutter Projects\sota\build\firebase_core\intermediates\lint_vital_partial_results\release\lintVitalAnalyzeRelease\out"
+    desugaredMethodsFiles="C:\Users\User\.gradle\caches\8.10.2\transforms\845d9227b0aa7afd95c9677206a478c7\transformed\D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src\main\AndroidManifest.xml"
+        javaDirectories="src\main\java;src\release\java;src\main\kotlin;src\release\kotlin"
+        resDirectories="src\main\res;src\release\res"
+        assetsDirectories="src\main\assets;src\release\assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <artifact
+      classOutputs="D:\_UserData\Documents\Flutter Projects\sota\build\firebase_core\intermediates\javac\release\compileReleaseJavaWithJavac\classes;D:\_UserData\Documents\Flutter Projects\sota\build\firebase_core\intermediates\compile_r_class_jar\release\generateReleaseRFile\R.jar"
+      type="MAIN"
+      applicationId="io.flutter.plugins.firebase.core"
+      generatedSourceFolders="D:\_UserData\Documents\Flutter Projects\sota\build\firebase_core\generated\ap_generated_sources\release\out;D:\_UserData\Documents\Flutter Projects\sota\build\firebase_core\generated\source\buildConfig\release"
+      generatedResourceFolders="D:\_UserData\Documents\Flutter Projects\sota\build\firebase_core\generated\res\resValues\release"
+      desugaredMethodsFiles="C:\Users\User\.gradle\caches\8.10.2\transforms\845d9227b0aa7afd95c9677206a478c7\transformed\D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>

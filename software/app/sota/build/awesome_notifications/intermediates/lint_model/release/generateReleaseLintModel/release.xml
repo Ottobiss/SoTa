@@ -1,0 +1,32 @@
+<variant
+    name="release"
+    package="me.carda.awesome_notifications"
+    minSdkVersion="23"
+    targetSdkVersion="34"
+    mergedManifest="D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml"
+    manifestMergeReport="D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\outputs\logs\manifest-merger-release-report.txt"
+    proguardFiles="D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\default_proguard_files\global\proguard-android.txt-8.7.0"
+    consumerProguardFiles="consumer-rules.pro"
+    partialResultsDir="D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\lint_partial_results\release\lintAnalyzeRelease\out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src\main\AndroidManifest.xml"
+        javaDirectories="src\main\java;src\release\java;src\main\kotlin;src\release\kotlin"
+        resDirectories="src\main\res;src\release\res"
+        assetsDirectories="src\main\assets;src\release\assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <artifact
+      classOutputs="D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\javac\release\compileReleaseJavaWithJavac\classes;D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\compile_r_class_jar\release\generateReleaseRFile\R.jar"
+      type="MAIN"
+      applicationId="me.carda.awesome_notifications"
+      generatedSourceFolders="D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\generated\ap_generated_sources\release\out"
+      generatedResourceFolders="D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\generated\res\resValues\release"
+      desugaredMethodsFiles="C:\Users\User\.gradle\caches\8.10.2\transforms\80c0ce501e855105843834e8784492fd\transformed\D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>

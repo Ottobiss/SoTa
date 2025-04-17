@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "703479480700",
+    "project_id": "sota-pillbox",
+    "storage_bucket": "sota-pillbox.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703479480700:android:22db98ec8b2517411264f9",
+        "android_client_info": {
+          "package_name": "com.ottobiss.sota"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMiTyvTPaMO8gTnjTYHKROWq7vyHAHeoo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

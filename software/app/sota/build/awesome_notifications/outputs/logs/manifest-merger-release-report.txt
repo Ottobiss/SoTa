@@ -1,0 +1,99 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:1:1-44:12
+INJECTED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:1:1-44:12
+	package
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:2:3-43
+		INJECTED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS
+ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:4:5-89
+	android:name
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:4:22-86
+application
+ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:6:5-43:19
+receiver#me.carda.awesome_notifications.DartNotificationActionReceiver
+ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:8:9-9:38
+	android:exported
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:9:13-36
+	android:name
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:8:19-65
+receiver#me.carda.awesome_notifications.DartDismissedNotificationReceiver
+ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:11:9-12:38
+	android:exported
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:11:19-68
+receiver#me.carda.awesome_notifications.DartScheduledNotificationReceiver
+ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:14:9-15:38
+	android:exported
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:14:19-68
+receiver#me.carda.awesome_notifications.DartRefreshSchedulesReceiver
+ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:17:9-30:20
+	android:enabled
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:19:13-35
+	android:exported
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:20:13-36
+	android:name
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:18:13-57
+intent-filter#action:name:android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED+action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOCKED_BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:21:13-29:29
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:22:17-75
+	android:name
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:22:27-73
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:23:17-78
+	android:name
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:23:25-76
+action#android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:24:17-85
+	android:name
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:24:25-83
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:25:17-83
+	android:name
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:25:25-81
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:26:17-81
+	android:name
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:26:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:27:17-81
+	android:name
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:27:25-79
+action#android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED
+ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:28:17-106
+	android:name
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:28:25-104
+service#me.carda.awesome_notifications.DartBackgroundService
+ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:32:9-34:39
+	android:exported
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:34:13-37
+	android:permission
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:33:13-69
+	android:name
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:32:18-55
+service#me.carda.awesome_notifications.core.services.ForegroundService
+ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:36:9-41:43
+	android:enabled
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:38:13-35
+	android:exported
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:39:13-37
+	android:stopWithTask
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:41:13-40
+	android:foregroundServiceType
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:40:13-54
+	android:name
+		ADDED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml:37:13-90
+uses-sdk
+INJECTED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android\src\main\AndroidManifest.xml

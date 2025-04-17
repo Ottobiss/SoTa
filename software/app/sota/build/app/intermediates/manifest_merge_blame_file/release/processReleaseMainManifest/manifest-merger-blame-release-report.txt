@@ -1,0 +1,438 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ottobiss.sota"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+11-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:4:5-80
+11-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:4:22-78
+12    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+12-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:5:5-78
+12-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:5:22-76
+13    <!--
+14         Required to query activities that can process text, see:
+15         https://developer.android.com/training/package-visibility and
+16         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+17
+18         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+19    -->
+20    <queries>
+20-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:44:5-49:15
+21        <intent>
+21-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:45:9-48:18
+22            <action android:name="android.intent.action.PROCESS_TEXT" />
+22-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:46:13-72
+22-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:46:21-70
+23
+24            <data android:mimeType="text/plain" />
+24-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:47:13-50
+24-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:47:19-48
+25        </intent>
+26    </queries>
+27    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+28    <!-- <uses-sdk android:minSdkVersion="21" /> -->
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->[com.google.firebase:firebase-firestore:25.1.3] C:\Users\User\.gradle\caches\8.10.2\transforms\f91c0972f7321e3c055f32b551b42db6\transformed\jetified-firebase-firestore-25.1.3\AndroidManifest.xml:10:5-79
+29-->[com.google.firebase:firebase-firestore:25.1.3] C:\Users\User\.gradle\caches\8.10.2\transforms\f91c0972f7321e3c055f32b551b42db6\transformed\jetified-firebase-firestore-25.1.3\AndroidManifest.xml:10:22-76
+30    <uses-permission android:name="android.permission.INTERNET" />
+30-->[com.google.firebase:firebase-firestore:25.1.3] C:\Users\User\.gradle\caches\8.10.2\transforms\f91c0972f7321e3c055f32b551b42db6\transformed\jetified-firebase-firestore-25.1.3\AndroidManifest.xml:11:5-67
+30-->[com.google.firebase:firebase-firestore:25.1.3] C:\Users\User\.gradle\caches\8.10.2\transforms\f91c0972f7321e3c055f32b551b42db6\transformed\jetified-firebase-firestore-25.1.3\AndroidManifest.xml:11:22-64
+31    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
+31-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:7:5-89
+31-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:7:22-86
+32    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+32-->[me.carda:AndroidAwnCore:0.10.0] C:\Users\User\.gradle\caches\8.10.2\transforms\89a78364291ce6423b04fba5e036ca81\transformed\jetified-AndroidAwnCore-0.10.0\AndroidManifest.xml:8:5-77
+32-->[me.carda:AndroidAwnCore:0.10.0] C:\Users\User\.gradle\caches\8.10.2\transforms\89a78364291ce6423b04fba5e036ca81\transformed\jetified-AndroidAwnCore-0.10.0\AndroidManifest.xml:8:22-74
+33    <uses-permission
+33-->[me.carda:AndroidAwnCore:0.10.0] C:\Users\User\.gradle\caches\8.10.2\transforms\89a78364291ce6423b04fba5e036ca81\transformed\jetified-AndroidAwnCore-0.10.0\AndroidManifest.xml:9:5-12:47
+34        android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
+34-->[me.carda:AndroidAwnCore:0.10.0] C:\Users\User\.gradle\caches\8.10.2\transforms\89a78364291ce6423b04fba5e036ca81\transformed\jetified-AndroidAwnCore-0.10.0\AndroidManifest.xml:10:9-77
+35        android:maxSdkVersion="22" />
+35-->[me.carda:AndroidAwnCore:0.10.0] C:\Users\User\.gradle\caches\8.10.2\transforms\89a78364291ce6423b04fba5e036ca81\transformed\jetified-AndroidAwnCore-0.10.0\AndroidManifest.xml:11:9-35
+36
+37    <permission
+37-->[androidx.core:core:1.13.1] C:\Users\User\.gradle\caches\8.10.2\transforms\8cf478dec41eed746328fa8046755ba2\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+38        android:name="com.ottobiss.sota.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+38-->[androidx.core:core:1.13.1] C:\Users\User\.gradle\caches\8.10.2\transforms\8cf478dec41eed746328fa8046755ba2\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+39        android:protectionLevel="signature" />
+39-->[androidx.core:core:1.13.1] C:\Users\User\.gradle\caches\8.10.2\transforms\8cf478dec41eed746328fa8046755ba2\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+40
+41    <uses-permission android:name="com.ottobiss.sota.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- for android -->
+41-->[androidx.core:core:1.13.1] C:\Users\User\.gradle\caches\8.10.2\transforms\8cf478dec41eed746328fa8046755ba2\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+41-->[androidx.core:core:1.13.1] C:\Users\User\.gradle\caches\8.10.2\transforms\8cf478dec41eed746328fa8046755ba2\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+42    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+43    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+44    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+45    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+46    <!-- for Samsung -->
+47    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+48    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+49    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+50    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+51    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+52    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+53    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+54    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+55    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+56    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+57    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+58    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+59    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+59-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+59-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+60    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+60-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+60-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+61    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+61-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+61-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+62    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+62-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+62-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\User\.gradle\caches\8.10.2\transforms\56ae2228aea670732a10635502eda83b\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+63
+64    <application
+65        android:name="android.app.Application"
+65-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:9:9-42
+66        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+66-->[androidx.core:core:1.13.1] C:\Users\User\.gradle\caches\8.10.2\transforms\8cf478dec41eed746328fa8046755ba2\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+67        android:extractNativeLibs="false"
+68        android:icon="@mipmap/ic_launcher"
+68-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:10:9-43
+69        android:label="SOTA" >
+69-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:8:9-29
+70        <activity
+70-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:11:9-32:20
+71            android:name="com.ottobiss.sota.MainActivity"
+71-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:12:13-41
+72            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+72-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:17:13-163
+73            android:exported="true"
+73-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:13:13-36
+74            android:hardwareAccelerated="true"
+74-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:18:13-47
+75            android:launchMode="singleTop"
+75-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:14:13-43
+76            android:taskAffinity=""
+76-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:15:13-36
+77            android:theme="@style/LaunchTheme"
+77-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:16:13-47
+78            android:windowSoftInputMode="adjustResize" >
+78-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:19:13-55
+79
+80            <!--
+81                 Specifies an Android theme to apply to this Activity as soon as
+82                 the Android process has started. This theme is visible to the user
+83                 while the Flutter UI initializes. After that, this theme continues
+84                 to determine the Window background behind the Flutter UI.
+85            -->
+86            <meta-data
+86-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:24:13-27:17
+87                android:name="io.flutter.embedding.android.NormalTheme"
+87-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:25:15-70
+88                android:resource="@style/NormalTheme" />
+88-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:26:15-52
+89
+90            <intent-filter>
+90-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:28:13-31:29
+91                <action android:name="android.intent.action.MAIN" />
+91-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:29:17-68
+91-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:29:25-66
+92
+93                <category android:name="android.intent.category.LAUNCHER" />
+93-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:30:17-76
+93-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:30:27-74
+94            </intent-filter>
+95        </activity>
+96        <!--
+97             Don't delete the meta-data below.
+98             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+99        -->
+100        <meta-data
+100-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:35:9-37:33
+101            android:name="flutterEmbedding"
+101-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:36:13-44
+102            android:value="2" />
+102-->D:\_UserData\Documents\Flutter Projects\sota\android\app\src\main\AndroidManifest.xml:37:13-30
+103
+104        <service
+104-->[:cloud_firestore] D:\_UserData\Documents\Flutter Projects\sota\build\cloud_firestore\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:9-12:19
+105            android:name="com.google.firebase.components.ComponentDiscoveryService"
+105-->[:cloud_firestore] D:\_UserData\Documents\Flutter Projects\sota\build\cloud_firestore\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:18-89
+106            android:directBootAware="true"
+106-->[com.google.firebase:firebase-common:21.0.0] C:\Users\User\.gradle\caches\8.10.2\transforms\f84ab3ff6a97e53fb3163820143e7e79\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+107            android:exported="false" >
+107-->[com.google.firebase:firebase-firestore:25.1.3] C:\Users\User\.gradle\caches\8.10.2\transforms\f91c0972f7321e3c055f32b551b42db6\transformed\jetified-firebase-firestore-25.1.3\AndroidManifest.xml:16:13-37
+108            <meta-data
+108-->[:cloud_firestore] D:\_UserData\Documents\Flutter Projects\sota\build\cloud_firestore\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:13-11:85
+109                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+109-->[:cloud_firestore] D:\_UserData\Documents\Flutter Projects\sota\build\cloud_firestore\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:10:17-134
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[:cloud_firestore] D:\_UserData\Documents\Flutter Projects\sota\build\cloud_firestore\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:17-82
+111            <meta-data
+111-->[:firebase_core] D:\_UserData\Documents\Flutter Projects\sota\build\firebase_core\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:13-11:85
+112                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+112-->[:firebase_core] D:\_UserData\Documents\Flutter Projects\sota\build\firebase_core\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:10:17-124
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[:firebase_core] D:\_UserData\Documents\Flutter Projects\sota\build\firebase_core\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-firestore:25.1.3] C:\Users\User\.gradle\caches\8.10.2\transforms\f91c0972f7321e3c055f32b551b42db6\transformed\jetified-firebase-firestore-25.1.3\AndroidManifest.xml:17:13-19:85
+115                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+115-->[com.google.firebase:firebase-firestore:25.1.3] C:\Users\User\.gradle\caches\8.10.2\transforms\f91c0972f7321e3c055f32b551b42db6\transformed\jetified-firebase-firestore-25.1.3\AndroidManifest.xml:18:17-122
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-firestore:25.1.3] C:\Users\User\.gradle\caches\8.10.2\transforms\f91c0972f7321e3c055f32b551b42db6\transformed\jetified-firebase-firestore-25.1.3\AndroidManifest.xml:19:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-firestore:25.1.3] C:\Users\User\.gradle\caches\8.10.2\transforms\f91c0972f7321e3c055f32b551b42db6\transformed\jetified-firebase-firestore-25.1.3\AndroidManifest.xml:20:13-22:85
+118                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+118-->[com.google.firebase:firebase-firestore:25.1.3] C:\Users\User\.gradle\caches\8.10.2\transforms\f91c0972f7321e3c055f32b551b42db6\transformed\jetified-firebase-firestore-25.1.3\AndroidManifest.xml:21:17-111
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-firestore:25.1.3] C:\Users\User\.gradle\caches\8.10.2\transforms\f91c0972f7321e3c055f32b551b42db6\transformed\jetified-firebase-firestore-25.1.3\AndroidManifest.xml:22:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\User\.gradle\caches\8.10.2\transforms\1d2ed2d712f5e817992f6fd253969006\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+121                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+121-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\User\.gradle\caches\8.10.2\transforms\1d2ed2d712f5e817992f6fd253969006\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\User\.gradle\caches\8.10.2\transforms\1d2ed2d712f5e817992f6fd253969006\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-common:21.0.0] C:\Users\User\.gradle\caches\8.10.2\transforms\f84ab3ff6a97e53fb3163820143e7e79\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+124                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+124-->[com.google.firebase:firebase-common:21.0.0] C:\Users\User\.gradle\caches\8.10.2\transforms\f84ab3ff6a97e53fb3163820143e7e79\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-common:21.0.0] C:\Users\User\.gradle\caches\8.10.2\transforms\f84ab3ff6a97e53fb3163820143e7e79\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+126        </service>
+127
+128        <receiver
+128-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:10:9-12:39
+129            android:name="me.carda.awesome_notifications.DartNotificationActionReceiver"
+129-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:13-89
+130            android:exported="true" />
+130-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:12:13-36
+131        <receiver
+131-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:13:9-15:39
+132            android:name="me.carda.awesome_notifications.DartDismissedNotificationReceiver"
+132-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:14:13-92
+133            android:exported="true" />
+133-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:13-36
+134        <receiver
+134-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:16:9-18:39
+135            android:name="me.carda.awesome_notifications.DartScheduledNotificationReceiver"
+135-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:17:13-92
+136            android:exported="true" />
+136-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:18:13-36
+137        <receiver
+137-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:19:9-33:20
+138            android:name="me.carda.awesome_notifications.DartRefreshSchedulesReceiver"
+138-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:20:13-87
+139            android:enabled="true"
+139-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:21:13-35
+140            android:exported="true" >
+140-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:22:13-36
+141            <intent-filter>
+141-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:23:13-32:29
+142                <category android:name="android.intent.category.DEFAULT" />
+142-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:24:17-76
+142-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:24:27-73
+143
+144                <action android:name="android.intent.action.BOOT_COMPLETED" />
+144-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:26:17-79
+144-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:26:25-76
+145                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+145-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:27:17-86
+145-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:27:25-83
+146                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+146-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:28:17-84
+146-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:28:25-81
+147                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+147-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:29:17-82
+147-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:29:25-79
+148                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+148-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:30:17-82
+148-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:30:25-79
+149                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+149-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:31:17-107
+149-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:31:25-104
+150            </intent-filter>
+151        </receiver>
+152
+153        <service
+153-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:35:9-38:72
+154            android:name="me.carda.awesome_notifications.DartBackgroundService"
+154-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:36:13-80
+155            android:exported="false"
+155-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:37:13-37
+156            android:permission="android.permission.BIND_JOB_SERVICE" />
+156-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:38:13-69
+157        <service
+157-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:39:9-44:43
+158            android:name="me.carda.awesome_notifications.core.services.ForegroundService"
+158-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:40:13-90
+159            android:enabled="true"
+159-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:41:13-35
+160            android:exported="false"
+160-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:42:13-37
+161            android:foregroundServiceType="phoneCall|phoneCall"
+161-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:43:13-54
+162            android:stopWithTask="true" />
+162-->[:awesome_notifications] D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:44:13-40
+163        <service
+163-->[me.carda:AndroidAwnCore:0.10.0] C:\Users\User\.gradle\caches\8.10.2\transforms\89a78364291ce6423b04fba5e036ca81\transformed\jetified-AndroidAwnCore-0.10.0\AndroidManifest.xml:21:9-28:19
+164            android:name="me.carda.awesome_notifications.core.managers.StatusBarManager"
+164-->[me.carda:AndroidAwnCore:0.10.0] C:\Users\User\.gradle\caches\8.10.2\transforms\89a78364291ce6423b04fba5e036ca81\transformed\jetified-AndroidAwnCore-0.10.0\AndroidManifest.xml:22:13-89
+165            android:exported="true"
+165-->[me.carda:AndroidAwnCore:0.10.0] C:\Users\User\.gradle\caches\8.10.2\transforms\89a78364291ce6423b04fba5e036ca81\transformed\jetified-AndroidAwnCore-0.10.0\AndroidManifest.xml:23:13-36
+166            android:label="My Notification Listener Service" >
+166-->[me.carda:AndroidAwnCore:0.10.0] C:\Users\User\.gradle\caches\8.10.2\transforms\89a78364291ce6423b04fba5e036ca81\transformed\jetified-AndroidAwnCore-0.10.0\AndroidManifest.xml:24:13-61
+167            <intent-filter>
+167-->[me.carda:AndroidAwnCore:0.10.0] C:\Users\User\.gradle\caches\8.10.2\transforms\89a78364291ce6423b04fba5e036ca81\transformed\jetified-AndroidAwnCore-0.10.0\AndroidManifest.xml:25:13-27:29
+168                <action android:name="android.service.notification.NotificationListenerService" />
+168-->[me.carda:AndroidAwnCore:0.10.0] C:\Users\User\.gradle\caches\8.10.2\transforms\89a78364291ce6423b04fba5e036ca81\transformed\jetified-AndroidAwnCore-0.10.0\AndroidManifest.xml:26:17-99
+168-->[me.carda:AndroidAwnCore:0.10.0] C:\Users\User\.gradle\caches\8.10.2\transforms\89a78364291ce6423b04fba5e036ca81\transformed\jetified-AndroidAwnCore-0.10.0\AndroidManifest.xml:26:25-96
+169            </intent-filter>
+170        </service>
+171        <service
+171-->[androidx.room:room-runtime:2.6.1] C:\Users\User\.gradle\caches\8.10.2\transforms\58fddaebfc454570b01825c5ecc940d6\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+172            android:name="androidx.room.MultiInstanceInvalidationService"
+172-->[androidx.room:room-runtime:2.6.1] C:\Users\User\.gradle\caches\8.10.2\transforms\58fddaebfc454570b01825c5ecc940d6\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+173            android:directBootAware="true"
+173-->[androidx.room:room-runtime:2.6.1] C:\Users\User\.gradle\caches\8.10.2\transforms\58fddaebfc454570b01825c5ecc940d6\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+174            android:exported="false" />
+174-->[androidx.room:room-runtime:2.6.1] C:\Users\User\.gradle\caches\8.10.2\transforms\58fddaebfc454570b01825c5ecc940d6\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+175
+176        <activity
+176-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\User\.gradle\caches\8.10.2\transforms\80d381bf084c21e18706da6716588126\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+177            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+177-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\User\.gradle\caches\8.10.2\transforms\80d381bf084c21e18706da6716588126\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+178            android:exported="false"
+178-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\User\.gradle\caches\8.10.2\transforms\80d381bf084c21e18706da6716588126\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+179            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+179-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\User\.gradle\caches\8.10.2\transforms\80d381bf084c21e18706da6716588126\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+180
+181        <provider
+181-->[com.google.firebase:firebase-common:21.0.0] C:\Users\User\.gradle\caches\8.10.2\transforms\f84ab3ff6a97e53fb3163820143e7e79\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+182            android:name="com.google.firebase.provider.FirebaseInitProvider"
+182-->[com.google.firebase:firebase-common:21.0.0] C:\Users\User\.gradle\caches\8.10.2\transforms\f84ab3ff6a97e53fb3163820143e7e79\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+183            android:authorities="com.ottobiss.sota.firebaseinitprovider"
+183-->[com.google.firebase:firebase-common:21.0.0] C:\Users\User\.gradle\caches\8.10.2\transforms\f84ab3ff6a97e53fb3163820143e7e79\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+184            android:directBootAware="true"
+184-->[com.google.firebase:firebase-common:21.0.0] C:\Users\User\.gradle\caches\8.10.2\transforms\f84ab3ff6a97e53fb3163820143e7e79\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+185            android:exported="false"
+185-->[com.google.firebase:firebase-common:21.0.0] C:\Users\User\.gradle\caches\8.10.2\transforms\f84ab3ff6a97e53fb3163820143e7e79\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+186            android:initOrder="100" />
+186-->[com.google.firebase:firebase-common:21.0.0] C:\Users\User\.gradle\caches\8.10.2\transforms\f84ab3ff6a97e53fb3163820143e7e79\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+187
+188        <uses-library
+188-->[androidx.window:window:1.2.0] C:\Users\User\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+189            android:name="androidx.window.extensions"
+189-->[androidx.window:window:1.2.0] C:\Users\User\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+190            android:required="false" />
+190-->[androidx.window:window:1.2.0] C:\Users\User\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+191        <uses-library
+191-->[androidx.window:window:1.2.0] C:\Users\User\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+192            android:name="androidx.window.sidecar"
+192-->[androidx.window:window:1.2.0] C:\Users\User\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+193            android:required="false" />
+193-->[androidx.window:window:1.2.0] C:\Users\User\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+194
+195        <meta-data
+195-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\User\.gradle\caches\8.10.2\transforms\abeed4f47a72eff8f5b4e9bf7f2f3c91\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+196            android:name="com.google.android.gms.version"
+196-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\User\.gradle\caches\8.10.2\transforms\abeed4f47a72eff8f5b4e9bf7f2f3c91\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+197            android:value="@integer/google_play_services_version" />
+197-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\User\.gradle\caches\8.10.2\transforms\abeed4f47a72eff8f5b4e9bf7f2f3c91\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+198
+199        <provider
+199-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\8.10.2\transforms\ddb705a688ef6a1839fd6d53500b0a16\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+200            android:name="androidx.startup.InitializationProvider"
+200-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\8.10.2\transforms\ddb705a688ef6a1839fd6d53500b0a16\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+201            android:authorities="com.ottobiss.sota.androidx-startup"
+201-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\8.10.2\transforms\ddb705a688ef6a1839fd6d53500b0a16\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+202            android:exported="false" >
+202-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\8.10.2\transforms\ddb705a688ef6a1839fd6d53500b0a16\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+203            <meta-data
+203-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\8.10.2\transforms\ddb705a688ef6a1839fd6d53500b0a16\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+204                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+204-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\8.10.2\transforms\ddb705a688ef6a1839fd6d53500b0a16\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+205                android:value="androidx.startup" />
+205-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\8.10.2\transforms\ddb705a688ef6a1839fd6d53500b0a16\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+206            <meta-data
+206-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\User\.gradle\caches\8.10.2\transforms\e80aa748ff6540407d8dba61c0d945fe\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+207                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+207-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\User\.gradle\caches\8.10.2\transforms\e80aa748ff6540407d8dba61c0d945fe\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+208                android:value="androidx.startup" />
+208-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\User\.gradle\caches\8.10.2\transforms\e80aa748ff6540407d8dba61c0d945fe\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+209            <meta-data
+209-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+210                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+210-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+211                android:value="androidx.startup" />
+211-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+212        </provider>
+213
+214        <receiver
+214-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+215            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+215-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+216            android:directBootAware="false"
+216-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+217            android:enabled="true"
+217-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+218            android:exported="true"
+218-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+219            android:permission="android.permission.DUMP" >
+219-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+220            <intent-filter>
+220-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+221                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+221-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+221-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+222            </intent-filter>
+223            <intent-filter>
+223-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+224                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+224-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+224-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+225            </intent-filter>
+226            <intent-filter>
+226-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+227                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+227-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+227-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+228            </intent-filter>
+229            <intent-filter>
+229-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+230                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+230-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+230-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+231            </intent-filter>
+232        </receiver>
+233    </application>
+234
+235</manifest>

@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.1\android"
+    name=":awesome_notifications"
+    type="LIBRARY"
+    maven="me.carda.awesome_notifications:awesome_notifications:0.10.0"
+    agpVersion="8.7.0"
+    buildFolder="D:\_UserData\Documents\Flutter Projects\sota\build\awesome_notifications"
+    bootClassPath="C:\Users\User\AppData\Local\Android\sdk\platforms\android-34\android.jar;C:\Users\User\AppData\Local\Android\sdk\build-tools\34.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

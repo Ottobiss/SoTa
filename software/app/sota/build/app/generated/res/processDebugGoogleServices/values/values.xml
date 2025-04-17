@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">703479480700</string>
+    <string name="google_api_key" translatable="false">AIzaSyDMiTyvTPaMO8gTnjTYHKROWq7vyHAHeoo</string>
+    <string name="google_app_id" translatable="false">1:703479480700:android:22db98ec8b2517411264f9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDMiTyvTPaMO8gTnjTYHKROWq7vyHAHeoo</string>
+    <string name="google_storage_bucket" translatable="false">sota-pillbox.firebasestorage.app</string>
+    <string name="project_id" translatable="false">sota-pillbox</string>
+</resources>
